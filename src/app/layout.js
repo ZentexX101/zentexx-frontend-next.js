@@ -20,8 +20,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.className}`}>
-      <body className={geistMono.className}>
+    <html lang="en">
+      <body>
         <div className="min-h-screen flex flex-col">
           <Navbar />
 

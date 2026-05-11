@@ -1,9 +1,14 @@
-import React from 'react';
+
+import { Geist, Geist_Mono } from "next/font/google";
+const geistMono = Geist_Mono({
+    variable: "--font-geist-mono",
+    subsets: ["latin"],
+});
 
 const aboutPage = () => {
     return (
         <div>
-           <p className='text-4xl text-center'>This is the about page.</p> 
+            <p className={geistMono.className}>This is the about page.</p>
         </div>
     );
 };
